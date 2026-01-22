@@ -72,9 +72,3 @@ The SQL-driven approach enables fintech stakeholders to **monitor risk, guide cr
 
 ---
 
-## 📈 Recommended Next Steps
-- Introduce **default or delinquency indicators**
-- Segment cohorts by **risk bands or customer type**
-- Visualise trends using **Power BI or Tableau**
-- Automate cohort monitoring in a production data pipeline
-
