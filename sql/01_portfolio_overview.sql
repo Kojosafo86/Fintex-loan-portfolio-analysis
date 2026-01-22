@@ -1,7 +1,7 @@
--- ============================================
+-- =============================================
 -- Portfolio Overview
 -- High-level snapshot of the loan book
--- ============================================
+-- =============================================
 
 SELECT
     SUM(total_loan_disbursed_amount)               AS total_disbursed,
