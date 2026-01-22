@@ -58,21 +58,13 @@ This project demonstrates strong analytical SQL skills, including:
 ---
 
 ## 📁 Repository Structure
-```text
 fintech-loan-portfolio-analytics/
 │
 ├── README.md
-│
-├── data/
-│   └── loans.csv
-│
 ├── sql/
-│   ├── 01_portfolio_overview.sql
-│   ├── 02_cohort_loan_size.sql
-│   ├── 03_cohort_performance.sql
-│   ├── 04_disbursement_trends.sql
-│   ├── 05_rolling_repayment_rate.sql
-│   └── 06_exposure_concentration.sql
-│
-└── insights/
-    └── key_findings.md
+├── data/
+├── insights/
+├── images/
+│   └── tableau_dashboard.png
+└── tableau/
+    └── fintech_loan_portfolio_dashboard.twbx
