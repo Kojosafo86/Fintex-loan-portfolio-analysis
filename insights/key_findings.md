@@ -6,7 +6,7 @@ This section summarises the business insights generated from the SQL analysis of
 
 ## 1. Portfolio Health Overview
 - The portfolio shows a **material gap between total disbursed and total repaid**, indicating ongoing exposure.
-- While repayments are strong overall, a non-trivial portion of capital remains outstanding, highlighting the importance of cohort-level monitoring rather than portfolio-level averages alone.
+- While repayments are strong overall, a significant portion of capital remains outstanding, highlighting the importance of cohort-level monitoring rather than portfolio-level averages alone.
 
 **Business implication:**  
 High-level repayment rates can mask underlying cohort risk if exposure is concentrated in recent or weaker vintages.
@@ -27,7 +27,7 @@ Newer cohorts should be closely monitored and potentially subject to tighter und
 ---
 
 ## 3. Average Loan Size Has Increased Over Time
-- Average loan sizes vary by cohort, with a general trend toward **larger ticket sizes** in later cohorts.
+- Average loan sizes vary by cohort, with a general trend toward **larger loan sizes** in later cohorts.
 - Larger loans amplify risk when repayment performance deteriorates.
 
 **Business implication:**  
