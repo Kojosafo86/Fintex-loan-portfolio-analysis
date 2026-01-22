@@ -4,7 +4,7 @@ This section summarises the business insights generated from the SQL analysis of
 
 ---
 
-## 1️⃣ Portfolio Health Overview
+## 1️ Portfolio Health Overview
 - The portfolio shows a **material gap between total disbursed and total repaid**, indicating ongoing exposure.
 - While repayments are strong overall, a non-trivial portion of capital remains outstanding, highlighting the importance of cohort-level monitoring rather than portfolio-level averages alone.
 
@@ -13,7 +13,7 @@ High-level repayment rates can mask underlying cohort risk if exposure is concen
 
 ---
 
-## 2️⃣ Cohort Performance Varies Significantly
+## 2️ Cohort Performance Varies Significantly
 - Earlier cohorts demonstrate **higher and more stable repayment rates**.
 - More recent cohorts tend to underperform relative to historical averages.
 - This pattern may reflect changes in:
@@ -26,7 +26,7 @@ Newer cohorts should be closely monitored and potentially subject to tighter und
 
 ---
 
-## 3️⃣ Average Loan Size Has Increased Over Time
+## 3️ Average Loan Size Has Increased Over Time
 - Average loan sizes vary by cohort, with a general trend toward **larger ticket sizes** in later cohorts.
 - Larger loans amplify risk when repayment performance deteriorates.
 
@@ -35,7 +35,7 @@ Loan growth driven by larger disbursements should be balanced with enhanced cred
 
 ---
 
-## 4️⃣ Disbursement Growth Is Not Linear
+## 4️ Disbursement Growth Is Not Linear
 - Month-over-month disbursement changes fluctuate, indicating **uneven portfolio growth**.
 - Periods of rapid growth are followed by slower or negative changes.
 
@@ -44,7 +44,7 @@ Sudden growth spurts may precede higher default or delinquency risk if credit qu
 
 ---
 
-## 5️⃣ Rolling Repayment Rates Show Early Warning Signals
+## 5️ Rolling Repayment Rates Show Early Warning Signals
 - The rolling 3-month repayment rate smooths volatility and highlights **directional trends**.
 - A downward trend in rolling repayment performance suggests **emerging credit risk** before it appears in static metrics.
 
@@ -53,7 +53,7 @@ Rolling metrics are more effective for proactive risk management than point-in-t
 
 ---
 
-## 6️⃣ Exposure Is Concentrated in Recent Cohorts
+## 6️ Exposure Is Concentrated in Recent Cohorts
 - Outstanding balances are disproportionately concentrated in the most recent cohorts.
 - These cohorts have had less time to repay and carry the highest capital-at-risk.
 
@@ -62,7 +62,7 @@ Portfolio risk is forward-looking — current exposure depends more on recent co
 
 ---
 
-## 🔎 Overall Conclusion
+##  Overall Conclusion
 This analysis demonstrates that:
 - Portfolio-level metrics alone are insufficient for risk management
 - Cohort (vintage) analysis provides critical insight into credit quality
