@@ -164,8 +164,9 @@ from the two 2020-H2 vintages.
 
 ## Limitations
 
-- **Source:** an anonymised extract supplied as an interview case study, so
-  there is no detail on the lender's product rules or collections process.
+- **Source:** an anonymised extract supplied as an interview case study. The
+  raw data isn't published; the aggregated results in `results/` are. There is
+  no detail on the lender's product rules or collections process.
 - **No borrower data:** there are no income, credit-score or demographic fields,
   so this analyses *behaviour*, not the reasons behind it.
 - **Closed borrower base:** every client joined in 2020, so later vintages
@@ -187,7 +188,7 @@ from the two 2020-H2 vintages.
 ├── make_charts.py
 ├── requirements.txt
 ├── data/
-│   └── smaller_data_set.csv
+│   └── README.md          # expected columns; the dataset itself is not published
 ├── sql/
 │   ├── 00_build_model.sql         # raw transactions → loans / installments / payments
 │   ├── 01_portfolio_overview.sql
@@ -206,6 +207,10 @@ from the two 2020-H2 vintages.
 vintage/cohort analysis, date arithmetic, and a reconciliation check.
 
 ## How to run
+
+The source data isn't published (it was supplied confidentially as an
+interview case study). With your own copy saved as `data/smaller_data_set.csv`
+— see [`data/README.md`](data/README.md) for the expected columns:
 
 ```bash
 pip install -r requirements.txt
