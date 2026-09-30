@@ -1,0 +1,6 @@
+borrower_stage,matured_loans,avg_loan_size,principal_loss_rate,settled_on_time_rate
+1. First loan,10277,171.0,0.1545,0.66
+2. Loans 2-5,21464,269.0,0.0834,0.747
+3. Loans 6-10,14831,469.0,0.0313,0.837
+4. Loans 11-20,17209,1050.0,0.0344,0.863
+5. Loan 21+,6845,1774.0,0.0418,0.868

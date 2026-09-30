@@ -1,0 +1,2 @@
+loans,clients,principal_disbursed,avg_loan_size,contractual_due,net_collected,matured_loans,matured_collected_per_unit_lent,matured_principal_loss_rate,matured_settled_on_time_rate
+71478,10276,46452491.0,650.0,52240572.41000104,49273494.52,70626,1.071,0.047,0.7933
