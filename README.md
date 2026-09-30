@@ -1,8 +1,9 @@
 # Fintech Loan Portfolio — Vintage & Credit-Risk Analysis (SQL)
 
 Credit-risk analysis of a fintech's short-term loan book: **71,478 loans,
-46.5M lent to 10,276 clients between 2020 and 2023**, followed repayment by
-repayment. The question a credit or finance team would ask: *is this book
+GHS 46.5M lent to 10,276 clients between 2020 and 2023**, followed repayment by
+repayment. The anonymised dataset was provided as a case study during a job
+interview; all amounts are in Ghanaian cedis (GHS). The question a credit or finance team would ask: *is this book
 getting safer as it grows, and why?*
 
 **Author:** Kojo Safo · DataWize Analytics · [Portfolio](https://kojosafo86.github.io)
@@ -72,7 +73,7 @@ Every run checks that net payments reconcile to the cent at both grains
 | Metric | Value |
 |---|---|
 | Loans / clients | 71,478 / 10,276 |
-| Principal lent | 46.45M (average loan 650) |
+| Principal lent | GHS 46.45M (average loan GHS 650) |
 | Matured loans | 70,626 |
 | Collected per 1.00 lent (matured) | **1.07** |
 | Principal loss rate (matured) | **4.7%** |
@@ -80,7 +81,7 @@ Every run checks that net payments reconcile to the cent at both grains
 
 ### 2. Vintages: losses fell as loans grew
 
-| Vintage | Loans | Avg loan | Loss rate | On time |
+| Vintage | Loans | Avg loan (GHS) | Loss rate | On time |
 |---|---:|---:|---:|---:|
 | 2020-Q3 | 15,848 | 201 | 14.7% | 68.3% |
 | 2020-Q4 | 13,177 | 298 | 7.1% | 75.9% |
@@ -100,7 +101,7 @@ collecting (late payments and fees) and settled around 108–111%.
 
 ### 3. Why: repeat borrowers are the safe core of the book
 
-| Loan in client's sequence | Loans | Avg loan | Loss rate | On time |
+| Loan in client's sequence | Loans | Avg loan (GHS) | Loss rate | On time |
 |---|---:|---:|---:|---:|
 | First loan | 10,277 | 171 | 15.4% | 66.0% |
 | Loans 2–5 | 21,464 | 269 | 8.3% | 74.7% |
@@ -123,7 +124,7 @@ understate the risk of growth through new customers.
 
 ### 4. Product risk: tenor matters more than size
 
-| Instalments | Matured loans | Avg loan | Loss rate |
+| Instalments | Matured loans | Avg loan (GHS) | Loss rate |
 |---|---:|---:|---:|
 | 1 | 56,175 | 547 | 3.9% |
 | 2 | 7,976 | 649 | 4.1% |
@@ -163,8 +164,8 @@ from the two 2020-H2 vintages.
 
 ## Limitations
 
-- **Currency:** amounts are in the dataset's own currency, which the source
-  doesn't state.
+- **Source:** an anonymised extract supplied as an interview case study, so
+  there is no detail on the lender's product rules or collections process.
 - **No borrower data:** there are no income, credit-score or demographic fields,
   so this analyses *behaviour*, not the reasons behind it.
 - **Closed borrower base:** every client joined in 2020, so later vintages
